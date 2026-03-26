@@ -35,14 +35,7 @@
     "auto-reconnect-delay": 2000,
     "max-reconnect-delay": 120000
   },
-  "movement": {
-    "enabled": false,
-    "circle-walk": {
-      "enabled": false,
-    },
-    "look-around":false 
-    },
-    "random-jump":false
+  "movement": false
   },
   "modules": {
     "avoidMobs": true,
