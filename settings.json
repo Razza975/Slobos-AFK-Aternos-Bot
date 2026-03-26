@@ -8,13 +8,13 @@
   "server": {
     "ip": "Jurf2.aternos.me",
     "port": 29639,
-    "version": "",
-    "try-creative": false
+    "version": "1.21.11",
+    "try-creative": true
   },
   "position": {
     "enabled": true,
     "x": 0,
-    "y": 100,
+    "y": 1000,
     "z": 0
   },
   "utils": {
@@ -27,14 +27,9 @@
       "sneak": true
     },
     "chat-messages": {
-      "enabled": true,
-      "repeat": true,
-      "repeat-delay": 120,
-      "messages": [
-        "I'm a regular player",
-        "Subscribe to Slobos!",
-        "I like to play Minecraft!"
-      ]
+      "enabled": false,
+      "repeat": false,
+      
     },
     "chat-log": true,
     "auto-reconnect": true,
@@ -42,14 +37,12 @@
     "max-reconnect-delay": 120000
   },
   "movement": {
-    "enabled": true,
+    "enabled": false,
     "circle-walk": {
-      "enabled": true,
-      "radius": 4,
-      "speed": 3000
+      "enabled": false,
     },
     "look-around": {
-      "enabled": true,
+      "enabled": false,
       "interval": 5000
     },
     "random-jump": {
@@ -59,29 +52,20 @@
   },
   "modules": {
     "avoidMobs": true,
-    "combat": true,
+    "combat": false,
     "beds": false,
     "chat": true,
     "console-commands": true
   },
   "combat": {
-    "attack-mobs": true,
+    "attack-mobs": false,
     "auto-eat": true
   },
   "beds": {
     "pick-up-day": false,
     "place-night": false
   },
-  "discord": {
-    "enabled": false,
-    "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
-    "events": {
-      "connect": true,
-      "disconnect": true,
-      "chat": false
-    }
-  },
   "chat": {
-    "respond": true
+    "respond": false
   }
 }
