@@ -40,20 +40,15 @@
     "circle-walk": {
       "enabled": false,
     },
-    "look-around": {
-      "enabled": false,
-      "interval": 5000
+    "look-around":false 
     },
-    "random-jump": {
-      "enabled": true,
-      "interval": 10000
-    }
+    "random-jump":false
   },
   "modules": {
     "avoidMobs": true,
     "combat": false,
     "beds": false,
-    "chat": true,
+    "chat": false,
     "console-commands": true
   },
   "combat": {
@@ -64,7 +59,6 @@
     "pick-up-day": false,
     "place-night": false
   },
-  "chat": {
-    "respond": false
-  }
+  "chat": false
+  
 }
